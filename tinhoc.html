@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Trang HTML Tổng Hợp</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+            background-color:#FFFF99;
+            font-family:Time new roman;
+            font-size:18px;
+        }
+        h1, h2 {
+            color: #6666CC;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin: 10px 0;
+            background: #ffffcc;
+        }
+        table, th, td {
+            border: 1px solid #555;
+        }
+        th, td {
+            padding: 8px;
+            text-align: center;
+        }
+        form {
+            background: #ffffcc;
+            padding: 15px;
+            border-radius: 5px;
+        }
+        iframe {
+            border: 1px solid #aaa;
+        }
+    </style>
+</head>
+
+<body>
+
+<h1> Tổng hợp kiến thức Tin học</h1>
+
+<hr>
+
+<h2>1. Danh sách mục lục</h2>
+
+<ol type="I" star="I">
+	<li> <b> MÁY TÍNH VÀ XÃ HỘI TRI THỨC </b> </li>
+	<ul style="list-style-type:square">  
+    	<li> Làm quen với trí tuệ nhân tạo </li>
+        <li> Trí tuệ nhân tạo trong khoa học và đời sống </li>
+    </ul>
+    <li> <b> MẠNG MÁY TÍNH VÀ INTERNET </b> </li>
+    <ul style="list-style-type:square">  
+    	<li> Một số thiết bị mạng thông dụng </li>
+        <li> Giao thức mạng </li>
+        <li> Thực hành chia sẻ tài nguyên trên mạng </li>
+    </ul>
+    <li> <b> ĐẠO ĐỨC, PHÁP LUẬT VÀ VĂN HÓA TRONG MÔI TRƯỜNG SỐ </b> </li>
+    <ul style="list-style-type:square">  
+    	<li> Giao tiếp và ứng xử trong không gian mạng </li>
+    </ul>
+</ol>
+
+
+<hr>
+
+<h2>2. Tóm tắt nội dung của từng chủ đề</h2>
+
+<table>
+    <tr>
+        <th>STT</th>
+        <th>Tên chủ đề</th>
+        <th>Nội dung chính</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>MÁY TÍNH VÀ XÃ HỘI TRI THỨC </td>
+        <td>Tác động của máy tính đến học tập, lao động, quản lí và đời sống xã hội</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>MẠNG MÁY TÍNH VÀ INTERNET</td>
+        <td>Vai trò của mạng máy tính và Internet; các thành phần cơ bản, cách kết nối và truyền dữ liệu</td>
+    </tr>
+    <tr>
+    	<td> 3 </td>
+    	<td> ĐẠO ĐỨC, PHÁP LUẬT VÀ VĂN HÓA TRONG MÔI TRƯỜNG SỐ </td>
+        <td> Các chuẩn mực đạo đức, quy định pháp luật và văn hóa ứng xử khi sử dụng công nghệ số. </td>
+    </tr>
+</table>
+
+<hr>
+
+<h2>3. Liên kết đến tài liệu học tập</h2>
+
+<p>
+     <a href="https://vietjack.com/tin-hoc-12-kn/ly-thuyet-tin-hoc-lop-12.jsp">Lý thuyết sách Kết nối tri thức với cuộc sống</a>
+</p>
+
+<p>
+    <a href="https://vietjack.com/tin-hoc-12-kn/index.jsp">Giải bài tập</a>
+</p>
+
+<hr>
+
+<h2>4. Tải tệp tin lên</h2>
+
+<form>
+    <label>Chọn tệp bài làm:</label><br>
+    <input type="file" name="baitap"><br><br>
+</form>
+
+<hr>
+
+<h2>5. Tìm thêm thông tin về Tin học</h2>
+
+<iframe 
+    src="https://www.wikipedia.org" 
+    width="100%" 
+    height="300">
+</iframe>
+
+<hr>
+
+<h2>6. Form đăng kí</h2>
+
+<form action="#" method="post">
+    <label>Họ và tên:</label><br>
+    <input type="text" name="hoten"><br><br>
+
+    <label>Email:</label><br>
+    <input type="email" name="email"><br><br>
+
+    <label>Mật khẩu:</label><br>
+    <input type="password" name="matkhau"><br><br>
+
+    <label>Giới tính:</label><br>
+    <input type="radio" name="gioitinh" value="nam"> Nam
+    <input type="radio" name="gioitinh" value="nu"> Nữ<br><br>
+
+    <label>Chủ đề:</label><br>
+    <input type="checkbox"> Chủ đề 1
+    <input type="checkbox"> Chủ đề 2
+    <input type="checkbox"> Chủ đề 3<br><br>
+
+    <label>Khối lớp:</label><br>
+    <select>
+        <option>Lớp 10</option>
+        <option>Lớp 11</option>
+        <option>Lớp 12</option>
+    </select><br><br>
+
+    <label>Ý kiến:</label><br>
+    <textarea rows="4" cols="40"></textarea><br><br>
+
+    <button type="submit">Gửi</button>
+    <button type="reset">Nhập lại</button>
+</form>
+
+<hr>
+
+<div style="text-align: center" >
+	<img src="Học sinh với giáo trình tin học 12.png"> 
+</div>
+
+</body>
+</html>
